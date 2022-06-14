@@ -1,0 +1,12 @@
+/* Font css */
+@import url('https://fonts.googleapis.com/css?family=Allura|Quicksand:300,400,500,700');
+@import url('../fonts/css/fonts.css');
+
+/* Vendor css */
+@import url('bootstrap.min.css');
+@import url('jquery.fancybox.min.css');
+@import url('slick.css');
+
+/* Theme css */
+@import url('screen.css');
+@import url('responsive-screen.css');
