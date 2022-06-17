@@ -64,7 +64,7 @@
 	/*.main-header {padding-top: 20px;padding-bottom: 20px;}*/
 	.main-header {padding-top: 6px;padding-bottom: 6px;}
 	.navigation {margin-left: 10px;}
-	.navigation ul li {padding: 0 5px;}
+	.navigation ul li {padding:10px 6px;}
 	.navigation ul li a {letter-spacing: 0;}
 	.search-block {margin-left: 15px;}
 	.signin-btn {margin-left: 15px;}
@@ -427,3 +427,8 @@
 	.press-page .product-wrapper > div, .ad-campaign-page .product-wrapper > div:not(first-child), .gallery-page .product-wrapper > div, .gallery-content .row > div{width: 100%; max-width: 100%; flex: auto;}
 	.img-full iframe {height: 165px}
 }
+
+/*for mega menu responsive*/
+/* @media (max-width:992x){
+	.navigation ul li {padding:12px!important;}
+} */

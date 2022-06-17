@@ -5,6 +5,14 @@ var $ = jQuery.noConflict();
 $(document).ready(function () {
 	//do jQuery stuff when DOM is ready
 
+	// $('.dropdown-menu-link').click(function(){
+	// 	$(this).parent().siblings().find('.dropdown-menu').removeClass('active-dropdown')
+	// 	$(this).next().toggleClass('active-dropdown');
+	// 	$('.dropdown-menu').parent('.dropdown-menu.active-dropdown .single-menu > ul > li').hover(function(){
+	// 		$('.dropdown-menu.active-dropdown .single-menu > ul > li');
+	// 	})
+	// });
+
 	/* Responsive Jquery Navigation */
 	$('.hamburger').click(function (event) {
 		$('#mobilenav').toggleClass('is-open');
@@ -267,12 +275,12 @@ $(document).ready(function () {
 
 	//----- matchheight script ----- //
 	if ($('.single-card').length > 0) {
-		$('.single-card .card-text').matchHeight({
-			byRow: true,
-			property: 'height',
-			target: null,
-			remove: false
-		});
+		// $('.single-card .card-text').matchHeight({
+		// 	byRow: true,
+		// 	property: 'height',
+		// 	target: null,
+		// 	remove: false
+		// });
 	}
 
 	$('.search-clicker').click(function () {
