@@ -31,17 +31,17 @@ $(document).ready(function () {
 		}
 	});
 
-	var clickable = $('#menu').attr('link-clickable');
-	$('#mobilenav li:has(ul)').addClass('has-sub');
-	$('#mobilenav .has-sub>a').after('<em class="caret">');
+	var clickable = $('.menu').attr('link-clickable');
+	$('.mobilenav li:has(ul)').addClass('has-sub');
+	$('.mobilenav .has-sub>a').after('<em class="caret">');
 	if (clickable == 'true') {
-		$('#mobilenav .has-sub>a').addClass('trigger-caret').attr('href', 'javascript:;');
+		$('.mobilenav .has-sub>a').addClass('trigger-caret').attr('href', 'javascript:;');
 	} else {
-		$('#mobilenav .has-sub>.caret').addClass('trigger-caret');
+		$('.mobilenav .has-sub>.caret').addClass('trigger-caret');
 	}
 
 	/* menu open and close on single click */
-	$(document).on('click', '#mobilenav .has-sub>.trigger-caret', function (event) {
+	$(document).on('click', '.mobilenav .has-sub>.trigger-caret', function (event) {
 		var element = $(this).parent('li');
 		if (element.hasClass('is-open')) {
 			element.removeClass('is-open');
